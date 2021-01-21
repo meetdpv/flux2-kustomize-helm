@@ -11,6 +11,7 @@ spec:
     kind: GitRepository
     name: flux-system
   path: ./apps/staging
+  # Added comments
   prune: true
   validation: client
   healthChecks:
